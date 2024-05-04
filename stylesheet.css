@@ -13,7 +13,7 @@ body {
   .middle {
   width: 45%;
   margin: auto;
-  background-image: images/background.png;
+  background: images/background.png;
  }
   section {
   width: 100%;
