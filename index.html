@@ -15,8 +15,13 @@
 <div class="middle">
 <center>
 <section>
-<blink>Get 10% off any thermal paste replacement through the month of July!</blink>
-
+ <p id="blink">Get 10% off any thermal paste replacement through the month of July!</p>
+        <script type="text/javascript">
+            var blink = document.getElementById('blink');
+            setInterval(function() {
+                blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+            }, 1500);
+        </script>
 <img src="images/logo-sm.png"
  style="width:430px;height:414px;"/>
 <h1>Welcome to Sam's Tech Support CNY! (STS)</h1>
