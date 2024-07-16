@@ -25,3 +25,17 @@ body {
   a {
  text-decoration: none;
  }
+  .innersection {
+    width: 70%;
+    margin: auto;
+  }
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  width: 20%;
+}
