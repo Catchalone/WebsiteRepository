@@ -42,7 +42,7 @@ body {
 }
 .posts {
 	top: 20px;
-	background-color: blue;
+	background-color: green;
 }
 
 .contact {
@@ -52,5 +52,5 @@ body {
 
 .videos {
 	top: 140px;
-	background-color: firebrick;
+	background-color: steelblue;
 }
