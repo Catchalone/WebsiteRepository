@@ -21,8 +21,8 @@ body {
   padding-top: 10px;
  }
   section img {
-  width: 50%;
-  height: 50%
+  width: 35%;
+  height: 35%
  }
   a {
  text-decoration: none;
@@ -42,15 +42,15 @@ body {
 }
 .posts {
 	top: 20px;
-	background-color: DarkCyan;
+	background-color: green;
 }
 
 .contact {
 	top: 80px;
-	background-color: Orange;
+	background-color: LightSeaGreen;
 }
 
 .videos {
 	top: 140px;
-	background-color: Firebrick;
+	background-color: steelblue;
 }
