@@ -1,5 +1,5 @@
-  body { 
-     background-color: steelblue;
+   body { 
+     background-image: url("images/background.jpg");
  }
 body {
   font-family: "Noto Sans", sans-serif;
@@ -11,31 +11,46 @@ body {
   color: white;
 }
   .middle {
-  width: 45%;
+  width: 80%;
   margin: auto;
-  background-color: steelblue;
+  background-image: url("images/background.jpg");
  }
   section {
   width: 100%;
   padding-bottom: 10px;
+  padding-top: 10px;
  }
   section img {
-  width: 100%;
+  width: 50%;
+  height: 50%
  }
   a {
  text-decoration: none;
  }
-  .innersection {
-    width: 70%;
-    margin: auto;
-  }
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-  margin: 0px;
+.sidenav a {
+	position: absolute;
+	left: -150px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 150px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
 }
-li {
-  width: 20%;
+.sidenav a:hover {
+	left: 0;
+}
+.posts {
+	top: 20px;
+	background-color: DarkCyan;
+}
+
+.contact {
+	top: 80px;
+	background-color: Orange;
+}
+
+.videos {
+	top: 140px;
+	background-color: Firebrick;
 }
