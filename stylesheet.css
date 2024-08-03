@@ -42,15 +42,15 @@ body {
 }
 .posts {
 	top: 20px;
-	background-color: green;
+	background-color: DarkCyan;
 }
 
 .contact {
 	top: 80px;
-	background-color: lightseagreen;
+	background-color: Orange;
 }
 
 .videos {
 	top: 140px;
-	background-color: firebrick;
+	background-color: Firebrick;
 }
