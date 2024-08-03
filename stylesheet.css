@@ -1,5 +1,5 @@
    body { 
-     background-image: url("images/background.jpg");
+     background-color: steelblue;
  }
 body {
   font-family: "Noto Sans", sans-serif;
@@ -52,5 +52,5 @@ body {
 
 .videos {
 	top: 140px;
-	background-color: steelblue;
+	background-color: firebrick;
 }
